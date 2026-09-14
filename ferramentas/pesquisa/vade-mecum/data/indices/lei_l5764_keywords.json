@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_l5764.json",
       "colecao": "artigos",
-      "sha256": "35f972f00c4b3e2a567abc5322cdd457c3cc7390ccfe8c45d85fab06cb68f29c",
+      "sha256": "86007274262b2c034ccd6a43d10e450900ea4c8012c9cf7a57a284362afa30d3",
       "total_registros": 119,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:05+00:00"
     },
     "relacao": {
       "chave": "numero",

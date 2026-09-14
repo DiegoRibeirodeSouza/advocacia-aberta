@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_l10931.json",
       "colecao": "artigos",
-      "sha256": "42c846e43a6b78b2150b4d10fa0d546ca229386dcc6c41ab2c14e11d13da95cd",
+      "sha256": "5a6adfb35f87cceab2bacca5ca1bd0f18381513cf3ecf9cc283de5b7053d398e",
       "total_registros": 77,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:04+00:00"
     },
     "relacao": {
       "chave": "numero",

@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_cdc.json",
       "colecao": "artigos",
-      "sha256": "549bd43f096201319b13f5ea43c5cf62139cab22a102d88b3cbb761f37d550d9",
+      "sha256": "7e8cb9704ccdcb11932be9183866e184238848cd8614a512eb04e0641aa85304",
       "total_registros": 131,
-      "gerado_em": "2026-08-31T20:53:11+00:00"
+      "gerado_em": "2026-09-14T13:55:49+00:00"
     },
     "relacao": {
       "chave": "numero",

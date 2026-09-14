@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_d9039.json",
       "colecao": "artigos",
-      "sha256": "124e220f476601b20f8a71ec575ad096e15cb2a0b78b066b89c2667be30c0ff6",
+      "sha256": "2be07581cce105e9667925340fdb0219ab42ae8b5e71313c9c58f4909119207e",
       "total_registros": 3,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:06+00:00"
     },
     "relacao": {
       "chave": "numero",

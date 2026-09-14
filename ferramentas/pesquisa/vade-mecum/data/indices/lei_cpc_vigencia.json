@@ -23,16 +23,16 @@
     "fonte": {
       "arquivo": "lei_cpc.json",
       "colecao": "artigos",
-      "sha256": "35ce81a56df154ebd04df30c94fdfb360ec975ddf82cc96860cccc42f8e8f36c",
-      "total_registros": 1073,
-      "gerado_em": "2026-08-31T20:53:13+00:00"
+      "sha256": "360ac1607f0abca0c06674377bac962574018900b4f76997cb8dac89c0b700c6",
+      "total_registros": 1074,
+      "gerado_em": "2026-09-14T13:55:50+00:00"
     },
     "relacao": {
       "chave": "numero",
       "cobertura": "parcial por desenho: só entram os artigos cuja fonte traz anotação de alteração; a ausência significa que o Planalto não anotou mudança, nunca que o dispositivo está vigente",
-      "artigos_com_anotacao": 54,
-      "anotacoes": 164,
-      "anotacoes_sem_diploma_nomeado": 60
+      "artigos_com_anotacao": 60,
+      "anotacoes": 178,
+      "anotacoes_sem_diploma_nomeado": 56
     }
   },
   "vigencia": {
@@ -867,6 +867,49 @@
         }
       ]
     },
+    "927": {
+      "situacao": null,
+      "eventos": [
+        {
+          "tipo": "inclusao",
+          "unidade": "inciso III",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…s em julgamento de recurso especial submetido ao regime da relevância da questão de direito federal infraconstitucional;",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
+    "932": {
+      "situacao": null,
+      "eventos": [
+        {
+          "tipo": "redacao",
+          "unidade": "alínea b",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…sos repetitivos ou de recursos especiais com a relevância da questão de direito federal infraconstitucional reconhecida;",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "redacao",
+          "unidade": "alínea b",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…sos repetitivos ou de recursos especiais com a relevância da questão de direito federal infraconstitucional reconhecida;",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
     "937": {
       "situacao": null,
       "eventos": [
@@ -936,6 +979,22 @@
         }
       ]
     },
+    "979": {
+      "situacao": null,
+      "eventos": [
+        {
+          "tipo": "redacao",
+          "unidade": "§ 3º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…stão de direito federal infraconstitucional reconhecida, de incidente de assunção de competência e de casos repetitivos.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
     "988": {
       "situacao": null,
       "eventos": [
@@ -976,22 +1035,37 @@
           "literal": "(Vigência)"
         },
         {
+          "tipo": "inclusao",
+          "unidade": "inciso V",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "… excepcionais, garantir a observância de acórdão proferido em julgamento de recurso especial sob o regime de relevância.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "redacao",
+          "unidade": "§ 4º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…isos III, IV e V compreendem a aplicação indevida da tese jurídica e sua não aplicação aos casos que a ela correspondam.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        },
+        {
           "tipo": "redacao",
           "unidade": "§ 5º",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "§ 5º É inadmissível a reclamação:",
-          "literal": "(Redação dada pela Lei nº 13.256, de 2016)"
-        },
-        {
-          "tipo": "vigencia",
-          "unidade": "§ 5º",
-          "diploma": null,
-          "trecho": "§ 5º É inadmissível a reclamação: (Redação dada pela Lei nº 13.256, de 2016)",
-          "literal": "(Vigência)"
+          "trecho": "§ 5º Será liminarmente indeferida a reclamação:",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         },
         {
           "tipo": "inclusao",
@@ -1012,22 +1086,31 @@
           "literal": "(Vigência)"
         },
         {
-          "tipo": "inclusao",
+          "tipo": "redacao",
           "unidade": "inciso II",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "…oferido em julgamento de recursos extraordinário ou especial repetitivos, quando não esgotadas as instâncias ordinárias.",
-          "literal": "(Incluído pela Lei nº 13.256, de 2016)"
-        },
+          "trecho": "…tadas as instâncias ordinárias ou o ato atacado não se mostrar manifestamente em desacordo com o precedente qualificado.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
+    "998": {
+      "situacao": null,
+      "eventos": [
         {
-          "tipo": "vigencia",
-          "unidade": "inciso II",
-          "diploma": null,
-          "trecho": "…ordinário ou especial repetitivos, quando não esgotadas as instâncias ordinárias. (Incluído pela Lei nº 13.256, de 2016)",
-          "literal": "(Vigência)"
+          "tipo": "redacao",
+          "unidade": "parágrafo único",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…itucional já tenha sido reconhecida e daquela objeto de julgamento de recursos extraordinários ou especiais repetitivos.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         }
       ]
     },
@@ -1202,21 +1285,25 @@
         },
         {
           "tipo": "inclusao",
+          "unidade": "alínea c",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…tra acórdão que esteja em conformidade com entendimento do Superior Tribunal de Justiça exarado no regime de relevância;",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "redacao",
           "unidade": "inciso II",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "…u do Superior Tribunal de Justiça exarado, conforme o caso, nos regimes de repercussão geral ou de recursos repetitivos;",
-          "literal": "(Incluído pela Lei nº 13.256, de 2016)"
-        },
-        {
-          "tipo": "vigencia",
-          "unidade": "inciso II",
-          "diploma": null,
-          "trecho": "…do, conforme o caso, nos regimes de repercussão geral ou de recursos repetitivos; (Incluído pela Lei nº 13.256, de 2016)",
-          "literal": "(Vigência)"
+          "trecho": "…egimes de repercussão geral, de relevância da questão de direito federal infraconstitucional ou de recursos repetitivos;",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         },
         {
           "tipo": "inclusao",
@@ -1266,22 +1353,15 @@
           "literal": "(Incluído pela Lei nº 13.256, de 2016)"
         },
         {
-          "tipo": "inclusao",
+          "tipo": "redacao",
           "unidade": "alínea a",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "a) o recurso ainda não tenha sido submetido ao regime de repercussão geral ou de julgamento de recursos repetitivos;",
-          "literal": "(Incluída pela Lei nº 13.256, de 2016)"
-        },
-        {
-          "tipo": "vigencia",
-          "unidade": "alínea a",
-          "diploma": null,
-          "trecho": "…ubmetido ao regime de repercussão geral ou de julgamento de recursos repetitivos; (Incluída pela Lei nº 13.256, de 2016)",
-          "literal": "(Vigência)"
+          "trecho": "…rcussão geral, de relevância da questão de direito federal infraconstitucional ou de julgamento de recursos repetitivos;",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         },
         {
           "tipo": "inclusao",
@@ -1423,6 +1503,110 @@
         }
       ]
     },
+    "1035-A": {
+      "situacao": null,
+      "eventos": [
+        {
+          "tipo": "inclusao",
+          "unidade": "caput",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…special quando a questão de direito federal infraconstitucional nele versada não for relevante, nos termos deste artigo.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 1º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…levantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos do processo.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 2º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…al infraconstitucional para apreciação exclusiva pelo Superior Tribunal de Justiça, em tópico específico e fundamentado.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 3º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "§ 3º Desatendida a forma prevista no § 2º, o recurso será inadmitido.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 4º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 5º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…ncia da questão de direito federal infraconstitucional, a manifestação de terceiros subscrita por procurador habilitado.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 6º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…festação de inexistência de relevância por parte de 2/3 (dois terços) dos membros do órgão competente para o julgamento.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 7º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "… uma única vez, por mais 6 (seis) meses quando houver a necessidade de audiência pública ou a participação de terceiros.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        },
+        {
+          "tipo": "inclusao",
+          "unidade": "§ 8º",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "… o voto do relator for no sentido de não reconhecer a relevância ou de reafirmar a jurisprudência dominante do Tribunal.",
+          "literal": "(Incluído pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
     "1036": {
       "situacao": null,
       "eventos": [
@@ -1482,6 +1666,22 @@
         }
       ]
     },
+    "1039": {
+      "situacao": null,
+      "eventos": [
+        {
+          "tipo": "redacao",
+          "unidade": "parágrafo único",
+          "diploma": {
+            "especie": "Lei",
+            "numero": "15.484",
+            "ano": 2026
+          },
+          "trecho": "…tomaticamente inadmitidos os recursos extraordinários ou os recursos especiais cujo processamento tenha sido sobrestado.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
+        }
+      ]
+    },
     "1041": {
       "situacao": null,
       "eventos": [
@@ -1490,11 +1690,11 @@
           "unidade": "§ 2º",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "…vo o juízo de admissibilidade, determinar a remessa do recurso ao tribunal superior para julgamento das demais questões.",
-          "literal": "(Redação dada pela Lei nº 13.256, de 2016)"
+          "trecho": "…fraconstitucional e de recursos repetitivos, inclusive quanto à possibilidade de sobrestamento e do juízo de retratação.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         }
       ]
     },
@@ -1506,11 +1706,11 @@
           "unidade": "caput",
           "diploma": {
             "especie": "Lei",
-            "numero": "13.256",
-            "ano": 2016
+            "numero": "15.484",
+            "ano": 2026
           },
-          "trecho": "…do fundada na aplicação de entendimento firmado em regime de repercussão geral ou em julgamento de recursos repetitivos.",
-          "literal": "(Redação dada pela Lei nº 13.256, de 2016)"
+          "trecho": "…rcussão geral, de relevância da questão de direito federal infraconstitucional ou de julgamento de recursos repetitivos.",
+          "literal": "(Redação dada pela Lei nº 15.484, de 2026)"
         },
         {
           "tipo": "revogacao",

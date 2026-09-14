@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_l9289.json",
       "colecao": "artigos",
-      "sha256": "aeedccc37a8c750e6f109dc8770b5b66e839112287861f751aae2770cdfe861e",
+      "sha256": "3a868242e20dbac1a798af682f691fb6777511a86fb9bf6621db9c3cff95f570",
       "total_registros": 18,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:07+00:00"
     },
     "relacao": {
       "chave": "numero",

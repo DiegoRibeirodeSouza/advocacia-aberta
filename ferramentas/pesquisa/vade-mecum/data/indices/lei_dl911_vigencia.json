@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_dl911.json",
       "colecao": "artigos",
-      "sha256": "5cbc4db4aff882e6b05e9691e38ae8cf4b37bd3e5f757c0084ef4667d318b1b3",
+      "sha256": "c8ee58777cc7dcb39233e2a730c532cc5b1d4d8563b613c27da8cee1a381fcff",
       "total_registros": 16,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:04+00:00"
     },
     "relacao": {
       "chave": "numero",

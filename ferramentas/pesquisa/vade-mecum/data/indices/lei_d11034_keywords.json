@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_d11034.json",
       "colecao": "artigos",
-      "sha256": "e9939ed5604ab9351db14f472e1a8eaaf7a08df602a4078d1f8d8a73abf08a66",
+      "sha256": "1c27f11eed0836992bd21820ef00a99b842c137af58c171f14e355b7c08e7945",
       "total_registros": 18,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:04+00:00"
     },
     "relacao": {
       "chave": "numero",

@@ -22,18 +22,19 @@
     "fonte": {
       "arquivo": "lei_cpc.json",
       "colecao": "artigos",
-      "sha256": "35ce81a56df154ebd04df30c94fdfb360ec975ddf82cc96860cccc42f8e8f36c",
-      "total_registros": 1073,
-      "gerado_em": "2026-08-31T20:53:13+00:00"
+      "sha256": "360ac1607f0abca0c06674377bac962574018900b4f76997cb8dac89c0b700c6",
+      "total_registros": 1074,
+      "gerado_em": "2026-09-14T13:55:50+00:00"
     },
     "relacao": {
       "chave": "numero",
       "cobertura": "complementar ao índice curado indexes.keywords; a união cobre todos os dispositivos publicados (1:1)",
-      "dispositivos_indexados": 1,
+      "dispositivos_indexados": 2,
       "dispositivos_no_indice_curado": 1072
     }
   },
   "tokens": {
-    "699-A": "art 699 nas acoes guarda antes iniciada audiencia mediacao conciliacao que trata 695 deste codigo juiz indagara partes ministerio publico risco violencia domestica familiar fixando prazo cinco dias para apresentacao prova indicios pertinentes incluido pela lei 713 2023"
+    "699-A": "art 699 nas acoes guarda antes iniciada audiencia mediacao conciliacao que trata 695 deste codigo juiz indagara partes ministerio publico risco violencia domestica familiar fixando prazo cinco dias para apresentacao prova indicios pertinentes incluido pela lei 713 2023",
+    "1035-A": "art 035 superior tribunal justica decisao irrecorrivel nao conhecera recurso especial quando questao direito federal infraconstitucional nele versada for relevante nos termos deste artigo incluido pela lei 484 2026 vigencia deliberacao que refere caput considerara existencia questoes relevantes ponto vista economico politico social juridico ultrapassem interesses subjetivos processo recorrente devera demonstrar relevancia para apreciacao exclusiva pelo topico especifico fundamentado desatendida forma prevista sera inadmitido presume nas hipoteses 105 constituicao relator podera admitir analise manifestacao terceiros subscrita por procurador habilitado somente inexistencia parte dois tercos dos membros orgao competente julgamento reconhecida mediante justificativa determinar suspensao total parcial processamento todos processos pendentes individuais coletivos versem sobre tramitem territorio nacional prazo seis meses prorrogavel uma unica vez mais houver necessidade audiencia publica participacao sob regime realizado sessao presencial salvo voto sentido reconhecer reafirmar jurisprudencia dominante subsecao recursos extraordinario repetitivos"
   }
 }

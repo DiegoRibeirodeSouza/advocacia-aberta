@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_lep.json",
       "colecao": "artigos",
-      "sha256": "721a3e03daed2228aa7fee138dbd2886c36f879dff80e6ffab83730b4de5448e",
+      "sha256": "dcd48beb2ed5823cbe5f0e21c7d8122026ef1132621c07e99e87e1b3d9477c2b",
       "total_registros": 219,
-      "gerado_em": "2026-08-31T20:53:14+00:00"
+      "gerado_em": "2026-09-14T13:55:51+00:00"
     },
     "relacao": {
       "chave": "numero",

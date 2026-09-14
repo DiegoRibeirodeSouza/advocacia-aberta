@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_d2181.json",
       "colecao": "artigos",
-      "sha256": "30a4c5268aaea87d65cee46744687f4bb4a87f2a76bf045afa315d5b6b5d2f7b",
+      "sha256": "2dd534ead2c3a9f04010cc00be2948680f2a88a81956f51dbf12c2d9c59161f6",
       "total_registros": 80,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:04+00:00"
     },
     "relacao": {
       "chave": "numero",

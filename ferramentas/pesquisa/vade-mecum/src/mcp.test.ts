@@ -96,7 +96,7 @@ test("MCP anuncia cobertura e contagens derivadas dos dados", async () => {
   expect(informativo?.description).toContain("não é vinculante por si só");
 
   const espelho = tools!.find((tool) => tool.name === "buscar_espelho");
-  expect(espelho?.description).toContain("11.486 acórdãos");
+  expect(espelho?.description).toContain("12.156 acórdãos");
   expect(espelho?.description).toContain("Secretaria de Jurisprudência do STJ");
   expect(espelho?.description).toContain("não é vinculante por si só");
 

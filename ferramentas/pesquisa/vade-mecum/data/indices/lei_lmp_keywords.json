@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_lmp.json",
       "colecao": "artigos",
-      "sha256": "382e81850e092940e91c07f26e281a4dc75b81cf91aa88293ac7d541fb49c781",
+      "sha256": "093e9da49cd98f9905eff2ebe63de2609b2b42e34c574d3f6f90c718bf3069e5",
       "total_registros": 57,
-      "gerado_em": "2026-08-31T20:53:14+00:00"
+      "gerado_em": "2026-09-14T13:55:51+00:00"
     },
     "relacao": {
       "chave": "numero",

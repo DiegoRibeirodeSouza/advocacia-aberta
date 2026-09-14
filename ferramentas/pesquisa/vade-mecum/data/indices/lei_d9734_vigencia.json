@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_d9734.json",
       "colecao": "artigos",
-      "sha256": "b5117ad9ec1d3bced0d6ce1f29fb687f73d0e72ed5f2e7eecb08d66cf9a085a4",
+      "sha256": "77481049715ab7ddaceb2e034a5c381af4a0b8a0695b87c0535dfa25fda4f23d",
       "total_registros": 4,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:06+00:00"
     },
     "relacao": {
       "chave": "numero",

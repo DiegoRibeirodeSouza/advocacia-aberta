@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_l12741.json",
       "colecao": "artigos",
-      "sha256": "0748365744e6b3d7455ccc1c4ce475135d1a29aea44dc471a38da9efc1b85fe5",
+      "sha256": "882238754acdb1724b4df6c32b2ba46da5e362257e3b55556125b1f961d9c77f",
       "total_registros": 6,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:05+00:00"
     },
     "relacao": {
       "chave": "numero",

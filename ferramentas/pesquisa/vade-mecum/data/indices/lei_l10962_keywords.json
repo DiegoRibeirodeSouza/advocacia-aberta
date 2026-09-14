@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_l10962.json",
       "colecao": "artigos",
-      "sha256": "8be89efc234d45ae5aa54a01b19c2efa82b7cb6e44bfc493e0ce8359f0bcfc36",
+      "sha256": "7c1d67fb7a2d51926968f0690de0b47712384d5c0f41ee07bae84bb2b0fa467e",
       "total_registros": 9,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:04+00:00"
     },
     "relacao": {
       "chave": "numero",

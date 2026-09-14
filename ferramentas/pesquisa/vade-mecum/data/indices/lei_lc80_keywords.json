@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_lc80.json",
       "colecao": "artigos",
-      "sha256": "fd9f87af8ef4e9e09e9bb2c6768894ff77d2493eb759973dbdb29bc1f925f958",
+      "sha256": "c24fabc5badaa8dfbb1c35e6d76063ba1c4314b4d80a0de9c4e2d7a008f32885",
       "total_registros": 163,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:07+00:00"
     },
     "relacao": {
       "chave": "numero",

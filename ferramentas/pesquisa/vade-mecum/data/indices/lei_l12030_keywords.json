@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_l12030.json",
       "colecao": "artigos",
-      "sha256": "10904ac51da5e68066397d69076a7bb688b109bc7f9ebbba88e36c87cd1ad1c7",
+      "sha256": "aa17a90b3beac2384bd689ed25cce38aaa0c423fa72dae36e1f15b12c589c43d",
       "total_registros": 6,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:06+00:00"
     },
     "relacao": {
       "chave": "numero",

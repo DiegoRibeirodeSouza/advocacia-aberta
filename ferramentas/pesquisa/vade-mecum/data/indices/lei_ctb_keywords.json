@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_ctb.json",
       "colecao": "artigos",
-      "sha256": "f814bc9fe6f008be30ae1a496a738bb175c6b0603395ea4f17635acc8a279ef3",
+      "sha256": "ac80a3899b24e73d245e17aa5dc08ffedfb8b366087ae128c56d97985536d318",
       "total_registros": 391,
-      "gerado_em": "2026-08-31T20:53:13+00:00"
+      "gerado_em": "2026-09-14T13:55:51+00:00"
     },
     "relacao": {
       "chave": "numero",

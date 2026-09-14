@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_l9790.json",
       "colecao": "artigos",
-      "sha256": "92f27028f01a2c17fc1400399cd481d353dda5918cd3664b2c2231749358eed8",
+      "sha256": "39272eee55370302098ced1cc9c4666d3ab425483fc2f0662b3658c480b3673d",
       "total_registros": 22,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:05+00:00"
     },
     "relacao": {
       "chave": "numero",

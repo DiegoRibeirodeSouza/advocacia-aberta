@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "2.0",
-    "generatedAt": "2026-08-31T20:53:25+00:00",
-    "totalTemas": 1468,
+    "generatedAt": "2026-09-14T13:56:00+00:00",
+    "totalTemas": 1473,
     "source": {
       "provenanceStatus": "reproducible_pipeline",
       "dataset": "Precedentes qualificados — Portal de Dados Abertos do STJ",
@@ -22,8 +22,8 @@
         }
       },
       "method": "Junção determinística de Temas.csv e Processos.csv por sequencialPrecedente; seleção preferencial do leading case.",
-      "metadata_sha256": "eaac1320f697a9e0c3d0716875845aba9206a3be275b53c9ef632dee9a8a0e86",
-      "collectedAt": "2026-08-31T20:53:25+00:00"
+      "metadata_sha256": "3d318eb5b8727fda84f82d01842a259b595a7326160ec9e11d06a96b03ca3bf8",
+      "collectedAt": "2026-09-14T13:56:00+00:00"
     },
     "transformacao": "temas_stj_csv_v1"
   },
@@ -1868,13 +1868,13 @@
     },
     "65": {
       "numero": 65,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO",
       "assuntos": [
         "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO"
       ],
       "questao": "Questão referente ao empréstimo compulsório sobre energia elétrica, no qual se discute: a) prescrição - termo a quo; b) correção monetária plena sobre o principal (a partir da data do recolhimento até a data do efetivo pagamento de juros e de 31 de dezembro até a data da assembléia de conversão), bem como o reflexo dos juros de 6% ao ano sobre a diferença de correção monetária; c) juros remuneratórios de 6% ao ano; d) taxa SELIC; e e) juros moratórios.Proposta de instauração de procedimento de revisão parcial das teses fixadas nos Temas Repetitivos 65/66/67, acolhida na Pet 17.904/RJ, pela Primeira Seção, nos termos da questão de ordem proposta pelo Ministro Teodoro Silva Santos, no tocante ao termo inicial da prescrição dos juros remuneratórios reflexos incidentes sobre a correção monetária.",
-      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: a definir.",
+      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: Quanto ao julgamento, a Primeira Seção do STJ, por maioria, rejeitou a proposta de revisão das teses repetitivas. O acórdão de fls. 904 foi disponibilizado no Diário da Justiça Eletrônico Nacional (DJEN/CNJ) em 02/09/2026 e considerado publicado em 03/09/2026, nos termos do art. 4º, § 3º, da Lei 11.419/2006.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "Pet 17904/RJ",
       "relator": "TEODORO SILVA SANTOS",
@@ -1895,13 +1895,13 @@
     },
     "66": {
       "numero": 66,
-      "situacao": "Afetado - Possível Revisão de Tese",
+      "situacao": "Acórdão Publicado",
       "ramo": "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO",
       "assuntos": [
         "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO"
       ],
       "questao": "Questão referente ao empréstimo compulsório sobre energia elétrica, no qual se discute: a) prescrição - termo a quo; b) correção monetária plena sobre o principal (a partir da data do recolhimento até a data do efetivo pagamento de juros e de 31 de dezembro até a data da assembléia de conversão), bem como o reflexo dos juros de 6% ao ano sobre a diferença de correção monetária; c) juros remuneratórios de 6% ao ano; d) taxa SELIC; e e) juros moratórios.Proposta de instauração de procedimento de revisão parcial das teses fixadas nos Temas Repetitivos 65/66/67, acolhida na Pet 17.904/RJ, pela Primeira Seção, nos termos da questão de ordem proposta pelo Ministro Teodoro Silva Santos, no tocante ao termo inicial da prescrição dos juros remuneratórios reflexos incidentes sobre a correção monetária.",
-      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: a definir.",
+      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: Quanto ao julgamento, a Primeira Seção do STJ, por maioria, rejeitou a proposta de revisão das teses repetitivas. O acórdão de fls. 904 foi disponibilizado no Diário da Justiça Eletrônico Nacional (DJEN/CNJ) em 02/09/2026 e considerado publicado em 03/09/2026, nos termos do art. 4º, § 3º, da Lei 11.419/2006.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "Pet 17904/RJ",
       "relator": "TEODORO SILVA SANTOS",
@@ -1922,13 +1922,13 @@
     },
     "67": {
       "numero": 67,
-      "situacao": "Afetado - Possível Revisão de Tese",
+      "situacao": "Acórdão Publicado",
       "ramo": "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO",
       "assuntos": [
         "DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO"
       ],
       "questao": "Questão referente ao empréstimo compulsório sobre energia elétrica, no qual se discute: a) prescrição - termo a quo; b) correção monetária plena sobre o principal (a partir da data do recolhimento até a data do efetivo pagamento de juros e de 31 de dezembro até a data da assembléia de conversão), bem como o reflexo dos juros de 6% ao ano sobre a diferença de correção monetária; c) juros remuneratórios de 6% ao ano; d) taxa SELIC; e e) juros moratórios.Proposta de instauração de procedimento de revisão parcial das teses fixadas nos Temas Repetitivos 65/66/67, acolhida na Pet 17.904/RJ, pela Primeira Seção, nos termos da questão de ordem proposta pelo Ministro Teodoro Silva Santos, no tocante ao termo inicial da prescrição dos juros remuneratórios reflexos incidentes sobre a correção monetária.",
-      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: a definir.",
+      "teseFirmada": "Tese firmada pela Primeira Seção no julgamento do REsp 1.003.955/RS e do REsp 1.028.592/RS, em 12/8/2009, com acórdãos publicados no DJE de 27/11/2009:Quanto à pretensão de correção monetária incidente sobre o principal (item 2), e dos juros remuneratórios dela decorrentes (item 4), a lesão ao direito do consumidor somente ocorreu no momento da restituição do empréstimo em valor 'a menor'. Considerando que essa restituição se deu em forma de conversão dos créditos em ações da companhia, a prescrição teve início na data em que a Assembleia-Geral Extraordinária homologou a conversão a saber: a) 20/04/1988 - com a 72ª AGE - 1ª conversão; b) 26/04/1990 - com a 82ª AGE - 2ª conversão; e c) 30/06/2005 - com a 143ª AGE - 3ª conversão.Tese após revisão: Quanto ao julgamento, a Primeira Seção do STJ, por maioria, rejeitou a proposta de revisão das teses repetitivas. O acórdão de fls. 904 foi disponibilizado no Diário da Justiça Eletrônico Nacional (DJEN/CNJ) em 02/09/2026 e considerado publicado em 03/09/2026, nos termos do art. 4º, § 3º, da Lei 11.419/2006.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "Pet 17904/RJ",
       "relator": "TEODORO SILVA SANTOS",
@@ -26642,7 +26642,7 @@
     },
     "931": {
       "numero": 931,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Trânsito em Julgado",
       "ramo": "Pena de Multa",
       "assuntos": [
         "Pena de Multa"
@@ -27748,8 +27748,8 @@
         "DIREITO CIVIL",
         "Obrigações",
         "Espécies de Contratos",
-        "Mútuo",
-        "Juros de Mora - Legais / Contratuais"
+        "Juros de Mora - Legais / Contratuais",
+        "Mútuo"
       ],
       "questao": "i. Cabimento ou não da incidência de juros remuneratórios na repetição de indébito apurado em favor do mutuário de contrato de mútuo feneratício; ii. taxa de juros remuneratórios a ser aplicada na hipótese do item anterior.",
       "teseFirmada": "Descabimento da repetição do indébito com os mesmos encargos do contrato.",
@@ -30098,7 +30098,7 @@
     },
     "1047": {
       "numero": 1047,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Trânsito em Julgado",
       "ramo": "DIREITO DO CONSUMIDOR",
       "assuntos": [
         "DIREITO DO CONSUMIDOR",
@@ -32179,19 +32179,19 @@
     },
     "1119": {
       "numero": 1119,
-      "situacao": "Afetado",
+      "situacao": "Mérito Julgado",
       "ramo": "DIREITO DO CONSUMIDOR",
       "assuntos": [
         "DIREITO DO CONSUMIDOR",
         "Contratos Bancários"
       ],
       "questao": "Aplicabilidade (ou não) do art. 39, inciso IX, do CDC à resilição unilateral de contrato de conta corrente bancária por iniciativa da instituição financeira.",
-      "teseFirmada": "",
+      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
       "orgaoJulgador": "Segunda Seção",
       "processo": "REsp 1941347/SP",
       "relator": "PAULO DE TARSO SANSEVERINO",
       "dataAfetacao": "02/12/2021",
-      "dataJulgamento": "",
+      "dataJulgamento": "03/09/2026",
       "links": {
         "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1119&cod_tema_final=1119",
         "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%221941347%22&O=JT",
@@ -33185,7 +33185,7 @@
     },
     "1154": {
       "numero": 1154,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "DIREITO PENAL",
       "assuntos": [
         "DIREITO PENAL",
@@ -33193,7 +33193,7 @@
         "Crimes de Tráfico Ilícito e Uso Indevido de Drogas"
       ],
       "questao": "Isoladamente consideradas, a natureza e a quantidade do entorpecente apreendido, por si sós, não são suficientes para embasar conclusão acerca da presença das referidas condições obstativas e, assim, afastar o reconhecimento da minorante do tráfico privilegiado.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "A apreensão de quantidade de drogas de tal modo expressiva que, por sua própria dimensão, seja incompatível com a figura do traficante eventual ou de pequeno traficante, configura fundamento idôneo para afastar a minorante do art. 33, § 4º, da Lei n. 11.343/2006. Fora dessa hipótese, a natureza e a quantidade das drogas podem afastar a minorante quando associadas a outros elementos do caso concreto - como alto grau de profissionalismo, sofisticada logística de transporte ou complexa estrutura de armazenamento -, dos quais se possa inferir, mediante fundamentação concreta, a dedicação do agente a atividades criminosas ou sua integração a organização criminosa.",
       "orgaoJulgador": "Terceira Seção",
       "processo": "REsp 1963433/SP",
       "relator": "JOÃO OTÁVIO DE NORONHA",
@@ -33406,7 +33406,7 @@
     },
     "1162": {
       "numero": 1162,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Acórdão Publicado - RE Pendente",
       "ramo": "Auxílio-Reclusão (Art. 80)",
       "assuntos": [
         "Auxílio-Reclusão (Art. 80)",
@@ -33602,7 +33602,7 @@
     },
     "1169": {
       "numero": 1169,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Trânsito em Julgado",
       "ramo": "Gratificações de Atividade",
       "assuntos": [
         "Gratificações de Atividade",
@@ -34817,7 +34817,7 @@
     },
     "1212": {
       "numero": 1212,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "DIREITO CIVIL",
       "assuntos": [
         "DIREITO CIVIL",
@@ -34826,7 +34826,7 @@
         "Ingresso e Exclusão dos Sócios na Sociedade"
       ],
       "questao": "a) licitude da exigência, em estatuto social de cooperativa de trabalho médico, de aprovação em processo seletivo como requisito para ingresso de novos cooperados; e b) da possibilidade de o edital do processo seletivo prever limitação de número de vagas.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "Nas cooperativas de trabalho médico é válida a previsão estatutária de processo seletivo público, impessoal e objetivo para admissão de novos cooperados, assim como a limitação do número de vagas fundada em estudos técnicos sobre mercado e equilíbrio econômico-financeiro.",
       "orgaoJulgador": "Segunda Seção",
       "processo": "REsp 2033484/SP",
       "relator": "RAUL ARAÚJO",
@@ -35631,14 +35631,14 @@
     },
     "1241": {
       "numero": 1241,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "Tráfico de Drogas e Condutas Afins",
       "assuntos": [
         "Tráfico de Drogas e Condutas Afins",
         "Crimes do Sistema Nacional de Armas"
       ],
       "questao": "Possibilidade de utilização da quantidade e variedade das drogas apreendidas para definir a fração da minorante do tráfico privilegiado, prevista no artigo 33, § 4º, da Lei 11.343/2006.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "A apreensão de quantidade de drogas de tal modo expressiva que, por sua própria dimensão, seja incompatível com a figura do traficante eventual ou de pequeno traficante, configura fundamento idôneo para afastar a minorante do art. 33, § 4º, da Lei n. 11.343/2006. Fora dessa hipótese, a natureza e a quantidade das drogas podem afastar a minorante quando associadas a outros elementos do caso concreto - como alto grau de profissionalismo, sofisticada logística de transporte ou complexa estrutura de armazenamento -, dos quais se possa inferir, mediante fundamentação concreta, a dedicação do agente a atividades criminosas ou sua integração a organização criminosa.",
       "orgaoJulgador": "Terceira Seção",
       "processo": "REsp 2059576/MG",
       "relator": "RIBEIRO DANTAS",
@@ -36166,13 +36166,13 @@
     },
     "1260": {
       "numero": 1260,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "Homicídio Qualificado",
       "assuntos": [
         "Homicídio Qualificado"
       ],
       "questao": "Definir a) se, nos termos do art. 155 do CPP, a pronúncia não pode se fundamentar exclusivamente em elementos colhidos durante o inquérito policial; b) se o testemunho indireto, ainda que colhido em juízo, não constitui, isoladamente, meio de prova idôneo para a pronúncia.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "1. A pronúncia não pode se basear, exclusivamente, em elementos informativos do inquérito, ressalvadas as exceções contidas na parte final do 155, caput, do CPP (provas cautelares, não repetíveis e antecipadas).2. O testemunho indireto ou de ouvir dizer é prova lícita e admissível no ordenamento jurídico brasileiro, mas, mesmo se produzido em juízo, não é suficiente, por si só, para atingir o standard probatório exigido para a decisão de pronúncia.3. Em contextos de intimidação da prova, criminalidade organizada, facções criminosas, silenciamento imposto à vítima ou à testemunha e outras hipóteses objetivamente demonstradas de irrepetibilidade ou dificuldade substancial de produção da prova direta, o testemunho indireto qualificado poderá assumir maior relevo probatório, desde que submetido a controle judicial estrito e não dissociado das garantias do contraditório e da ampla defesa",
       "orgaoJulgador": "Terceira Seção",
       "processo": "REsp 2048687/BA",
       "relator": "REYNALDO SOARES DA FONSECA",
@@ -36722,7 +36722,7 @@
     },
     "1280": {
       "numero": 1280,
-      "situacao": "Afetado",
+      "situacao": "Acórdão Publicado",
       "ramo": "Indenização por Dano Material",
       "assuntos": [
         "Indenização por Dano Material",
@@ -36732,16 +36732,16 @@
         "Barragem em Brumadinho"
       ],
       "questao": "Aplicabilidade do instituto jurídico do consumidor, por equiparação, às ações indenizatórias decorrentes do desastre ambiental ocorrido em Brumadinho, e consequente cômputo do prazo prescricional de cinco anos previsto no artigo 27 do Código de Defesa do Consumidor.",
-      "teseFirmada": "",
+      "teseFirmada": "É aplicável o instituto jurídico do consumidor, por equiparação, às ações indenizatórias decorrentes do desastre ambiental ocorrido em Brumadinho e, consequentemente, o cômputo do prazo prescricional de cinco anos previsto no artigo 27 do Código de Defesa do Consumidor.",
       "orgaoJulgador": "Segunda Seção",
-      "processo": "REsp 2124701/MG",
+      "processo": "REsp 2124717/MG",
       "relator": "MOURA RIBEIRO",
       "dataAfetacao": "13/09/2024",
-      "dataJulgamento": "",
+      "dataJulgamento": "19/08/2026",
       "links": {
         "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1280&cod_tema_final=1280",
-        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222124701%22&O=JT",
-        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202400510086"
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222124717%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202400509652"
       },
       "keywordsLLM": [
         "brumadinho dano ambiental",
@@ -38816,7 +38816,7 @@
     },
     "1354": {
       "numero": 1354,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Trânsito em Julgado",
       "ramo": "Pena Privativa de Liberdade",
       "assuntos": [
         "Pena Privativa de Liberdade",
@@ -38873,7 +38873,7 @@
     },
     "1356": {
       "numero": 1356,
-      "situacao": "Afetado",
+      "situacao": "Cancelado",
       "ramo": "Tráfico de Drogas e Condutas Afins",
       "assuntos": [
         "Tráfico de Drogas e Condutas Afins"
@@ -39323,7 +39323,7 @@
     },
     "1372": {
       "numero": 1372,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "Cofins",
       "assuntos": [
         "Cofins",
@@ -39331,7 +39331,7 @@
         "ICMS/ Imposto sobre Circulação de Mercadorias"
       ],
       "questao": "Definir se a contribuição ao Programa de Integração Social (PIS) e a Contribuição para o Financiamento da Seguridade Social (COFINS) incidem sobre o ICMS-DIFAL (Diferencial de Alíquotas do Imposto sobre a Circulação de Mercadorias e Serviços).",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "O ICMS-DIFAL (Diferencial de Alíquotas do Imposto sobre a Circulação de Mercadorias e Serviços) não compõe a base de cálculo da Contribuição ao PIS e da COFINS.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "REsp 2174178/RS",
       "relator": "GURGEL DE FARIA",
@@ -39441,18 +39441,18 @@
     },
     "1376": {
       "numero": 1376,
-      "situacao": "Afetado",
+      "situacao": "Mérito Julgado",
       "ramo": "Pena Privativa de Liberdade",
       "assuntos": [
         "Pena Privativa de Liberdade"
       ],
       "questao": "Definir se, ao reeducando que recebeu o benefício de remição da pena, em razão da aprovação no Exame Nacional para Certificação de Competências de Jovens e Adultos (ENCCEJA), poderá ser concedida nova remição, na mesma execução penal, devido à superveniente aprovação no Exame Nacional do Ensino Médio (ENEM).",
-      "teseFirmada": "",
+      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
       "orgaoJulgador": "Terceira Seção",
       "processo": "REsp 2208609/RS",
       "relator": "CARLOS CINI MARCHIONATTI (DESEMBARGADOR CONVOCADO TJRS)",
       "dataAfetacao": "02/09/2025",
-      "dataJulgamento": "",
+      "dataJulgamento": "03/09/2026",
       "links": {
         "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1376&cod_tema_final=1376",
         "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222208609%22&O=JT",
@@ -39918,13 +39918,13 @@
     },
     "1393": {
       "numero": 1393,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "Dívida Ativa (Execução Fiscal)",
       "assuntos": [
         "Dívida Ativa (Execução Fiscal)"
       ],
       "questao": "Definir se é possível prosseguir a execução fiscal contra o espólio ou os sucessores caso o executado venha a falecer sem ser citado.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "O redirecionamento da execução fiscal contra o espólio ou os sucessores só é admitido quando o falecimento do contribuinte ocorrer depois de ele ter sido devidamente citado nos respectivos autos.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "REsp 2237254/SC",
       "relator": "MARIA THEREZA DE ASSIS MOURA",
@@ -40276,18 +40276,18 @@
     },
     "1406": {
       "numero": 1406,
-      "situacao": "Afetado",
+      "situacao": "Mérito Julgado",
       "ramo": "Cédula de Crédito Rural",
       "assuntos": [
         "Cédula de Crédito Rural"
       ],
       "questao": "Definir se as Leis 11.775/2008, 12.716/2012, 12.844/2013, 13.001/2014, 13.340/2016, 13.306/2018, 13.606/2018 e 13.729/2018 - que instituíram medidas de estímulo à liquidação ou renegociação de operações de crédito rural - suspenderam automaticamente o prazo de prescrição nas execuções fundadas em título executivo extrajudicial ou judicial, ou se a referida suspensão estava condicionada à manifestação expressa do executado quanto ao interesse em renegociar ou liquidar a dívida.",
-      "teseFirmada": "",
+      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
       "orgaoJulgador": "Corte Especial",
       "processo": "REsp 2219068/MA",
       "relator": "RAUL ARAÚJO",
       "dataAfetacao": "13/01/2026",
-      "dataJulgamento": "",
+      "dataJulgamento": "02/09/2026",
       "links": {
         "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406",
         "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222219068%22&O=JT",
@@ -40316,7 +40316,7 @@
     },
     "1408": {
       "numero": 1408,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Acórdão Publicado - RE Pendente",
       "ramo": "FUNDEB/FUNDEF/Fundo de Manutenção e Desenvolvimento do Ensino Fundamental e de Valorização do Magistério",
       "assuntos": [
         "FUNDEB/FUNDEF/Fundo de Manutenção e Desenvolvimento do Ensino Fundamental e de Valorização do Magistério"
@@ -40552,13 +40552,13 @@
     },
     "1419": {
       "numero": 1419,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "PIS",
       "assuntos": [
         "PIS"
       ],
       "questao": "Definir se deve condenar ao pagamento de honorários advocatícios de sucumbência o acórdão que julga procedente a ação rescisória para aplicar a modulação de efeitos realizada pelo STF em seu Tema 69 da repercussão geral.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "A decisão que, para aplicar a modulação de efeitos realizada pelo STF no Tema 69 da repercussão geral, julga procedente ação rescisória contestada até 11/9/2024 não deve condenar ao pagamento de honorários advocatícios de sucumbência.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "REsp 2222626/RS",
       "relator": "MARIA THEREZA DE ASSIS MOURA",
@@ -40613,7 +40613,7 @@
     },
     "1422": {
       "numero": 1422,
-      "situacao": "Afetado",
+      "situacao": "Em Julgamento",
       "ramo": "Promoção",
       "assuntos": [
         "Promoção",
@@ -40656,7 +40656,7 @@
     },
     "1424": {
       "numero": 1424,
-      "situacao": "Acórdão Publicado",
+      "situacao": "Trânsito em Julgado",
       "ramo": "Perdas e Danos",
       "assuntos": [
         "Perdas e Danos"
@@ -40759,13 +40759,13 @@
     },
     "1429": {
       "numero": 1429,
-      "situacao": "Mérito Julgado",
+      "situacao": "Acórdão Publicado",
       "ramo": "ICMS/ Imposto sobre Circulação de Mercadorias",
       "assuntos": [
         "ICMS/ Imposto sobre Circulação de Mercadorias"
       ],
       "questao": "1. Definir qual das partes deve ser condenada ao pagamento dos ônus sucumbenciais quanto ao período em que o autor é dispensado de recolher tributo em razão da aplicação da modulação dos efeitos da orientação estabelecida no Tema 986 do STJ.2. Definir se há direito à repetição do indébito em favor do autor que recolhe integralmente o tributo, apesar de estar em situação de ser beneficiado pela modulação dos efeitos da orientação estabelecida no Tema 986 do STJ.",
-      "teseFirmada": "*Aguardando a publicação do acórdão do julgamento de mérito.",
+      "teseFirmada": "1. O Estado deve ser condenado ao pagamento dos ônus sucumbenciais quanto ao período em que o autor é dispensado de recolher tributo em razão da aplicação da modulação dos efeitos da orientação estabelecida no Tema 986 do STJ.2. Não é beneficiado pela modulação dos efeitos da orientação estabelecida no Tema 986 do STJ e não tem direito à repetição do indébito o autor que, ainda que amparado por decisão judicial, recolhe o tributo.",
       "orgaoJulgador": "Primeira Seção",
       "processo": "REsp 2245144/SP",
       "relator": "MARIA THEREZA DE ASSIS MOURA",
@@ -41578,6 +41578,113 @@
         "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1468&cod_tema_final=1468",
         "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222271268%22&O=JT",
         "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202601584361"
+      }
+    },
+    "1469": {
+      "numero": 1469,
+      "situacao": "Afetado",
+      "ramo": "Convênio",
+      "assuntos": [
+        "Convênio",
+        "Nulidade de ato administrativo"
+      ],
+      "questao": "i) definir os conceitos de ações de educação, de saúde ou de assistência social para incidência da exceção contemplada no art. 25, § 3º, da Lei Complementar n. 101/2000 às exigências de regularidade fiscal e financeira relativamente ao recebimento de transferências voluntárias por entes federativos; eii) possibilidade de aplicar, ao repasse de recursos estaduais, a regra prevista no art. 26 da Lei n. 10.522/2002, a qual dispensa as exigências da Lei de Responsabilidade Fiscal no tocante a transferências voluntárias de recursos federais a serem alocados em ações sociais ou ações em faixa de fronteira.",
+      "teseFirmada": "",
+      "orgaoJulgador": "Primeira Seção",
+      "processo": "REsp 2242339/BA",
+      "relator": "REGINA HELENA COSTA",
+      "dataAfetacao": "25/08/2026",
+      "dataJulgamento": "",
+      "links": {
+        "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1469&cod_tema_final=1469",
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222242339%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202502895494"
+      }
+    },
+    "1470": {
+      "numero": 1470,
+      "situacao": "Afetado",
+      "ramo": "Anulação",
+      "assuntos": [
+        "Anulação",
+        "Anulação"
+      ],
+      "questao": "Definir se o protesto extrajudicial é causa interruptiva do prazo prescricional da pretensão da Fazenda Pública de reaver crédito não tributário fundado em contrato de mútuo, no âmbito de programa de microcrédito operado por entidade autárquica estadual.",
+      "teseFirmada": "",
+      "orgaoJulgador": "Primeira Seção",
+      "processo": "REsp 2273410/TO",
+      "relator": "SÉRGIO KUKINA",
+      "dataAfetacao": "25/08/2026",
+      "dataJulgamento": "",
+      "links": {
+        "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1470&cod_tema_final=1470",
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222273410%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202601939146"
+      }
+    },
+    "1471": {
+      "numero": 1471,
+      "situacao": "Afetado",
+      "ramo": "Interpretação / Revisão de Contrato",
+      "assuntos": [
+        "Interpretação / Revisão de Contrato"
+      ],
+      "questao": "Definir o termo inicial do prazo prescricional da pretensão do mutuário associado de revisão de cláusulas de contrato de empréstimo pessoal firmado com entidade de previdência privada fechada.",
+      "teseFirmada": "",
+      "orgaoJulgador": "Segunda Seção",
+      "processo": "REsp 1980730/RS",
+      "relator": "RAUL ARAÚJO",
+      "dataAfetacao": "27/08/2026",
+      "dataJulgamento": "",
+      "links": {
+        "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1471&cod_tema_final=1471",
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%221980730%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202200056922"
+      }
+    },
+    "1472": {
+      "numero": 1472,
+      "situacao": "Afetado",
+      "ramo": "Direito de Imagem",
+      "assuntos": [
+        "Direito de Imagem",
+        "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+        "Direito de Imagem"
+      ],
+      "questao": "Definir se a demora injustificada da Administração na análise do requerimento de aposentadoria gera o dever de indenizar o servidor por danos materiais. Em caso afirmativo, estabelecer qual o prazo de atraso caracterizador da mora administrativa e qual o termo inicial para o pagamento da indenização devida.",
+      "teseFirmada": "",
+      "orgaoJulgador": "Primeira Seção",
+      "processo": "REsp 2258325/PE",
+      "relator": "AFRÂNIO VILELA",
+      "dataAfetacao": "31/08/2026",
+      "dataJulgamento": "",
+      "links": {
+        "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1472&cod_tema_final=1472",
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222258325%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202600493774"
+      }
+    },
+    "1473": {
+      "numero": 1473,
+      "situacao": "Afetado",
+      "ramo": "Compensação de Prejuízo",
+      "assuntos": [
+        "Compensação de Prejuízo",
+        "Incidência sobre Lucro",
+        "Não Cumulatividade",
+        "Não Cumulatividade"
+      ],
+      "questao": "Definir se os valores recebidos a título de gorjeta e repassados aos empregados da pessoa jurídica integram a base de cálculo do SIMPLES Nacional.",
+      "teseFirmada": "",
+      "orgaoJulgador": "Primeira Seção",
+      "processo": "REsp 2239211/PE",
+      "relator": "REGINA HELENA COSTA",
+      "dataAfetacao": "31/08/2026",
+      "dataJulgamento": "",
+      "links": {
+        "paginaTema": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1473&cod_tema_final=1473",
+        "scon": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%40num%3D%222239211%22&O=JT",
+        "consultaProcessual": "https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202504004315"
       }
     }
   },

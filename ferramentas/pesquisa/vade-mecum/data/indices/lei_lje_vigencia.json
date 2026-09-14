@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_lje.json",
       "colecao": "artigos",
-      "sha256": "80f10e752f3348fc956ac06af99c6abe9cf9f3cc8e96bdce51206be9e984988f",
+      "sha256": "9c836ce1268080ab89dbf644e9210a12e393fdd5bd93e00f9536fc5ea9fa7092",
       "total_registros": 99,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:07+00:00"
     },
     "relacao": {
       "chave": "numero",

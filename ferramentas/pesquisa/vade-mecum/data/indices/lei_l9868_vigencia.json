@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_l9868.json",
       "colecao": "artigos",
-      "sha256": "cf5f4ef997135ca6898d56adebd4f2163f30a95be9d4dc68539fe32ae3ca9409",
+      "sha256": "ea7ed7c85ce3af69bfd95caa6b2acf1efa4cb6ddc3dc1f27cacbdddb23320845",
       "total_registros": 39,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:07+00:00"
     },
     "relacao": {
       "chave": "numero",

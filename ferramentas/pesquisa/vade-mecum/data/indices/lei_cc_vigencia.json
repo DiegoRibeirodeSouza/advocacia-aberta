@@ -23,9 +23,9 @@
     "fonte": {
       "arquivo": "lei_cc.json",
       "colecao": "artigos",
-      "sha256": "8bbae4a2881ecd3048945aab421589dd86f7607b511812642b1038c8b119097d",
+      "sha256": "38e7c0a7f81da41b6335e7184821863b9d514db29f5af2e7dd79787ffe99aeb3",
       "total_registros": 2084,
-      "gerado_em": "2026-08-31T20:53:11+00:00"
+      "gerado_em": "2026-09-14T13:55:49+00:00"
     },
     "relacao": {
       "chave": "numero",

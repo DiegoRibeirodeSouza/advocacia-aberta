@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_d8660.json",
       "colecao": "artigos",
-      "sha256": "1d2f9d6396b6ed5c2f59873dc4d5e87e11c279080413f0a29a1f23843f733de9",
+      "sha256": "35d16dc17ee297aa34ebb4f2e401e40fdc37ef532ca37dfe53054309901139d4",
       "total_registros": 3,
-      "gerado_em": "2026-07-23"
+      "gerado_em": "2026-09-14T13:56:06+00:00"
     },
     "relacao": {
       "chave": "numero",

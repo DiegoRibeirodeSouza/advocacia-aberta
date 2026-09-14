@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_lsa.json",
       "colecao": "artigos",
-      "sha256": "f7cc58675b3f58e78ca41400ef0da33476e18cb80c8598fc299bca3f40c2b73e",
+      "sha256": "78320241f5cbe28c5b2ffec121a3f5a7fa609e06f05e890c2b69138c08ae2553",
       "total_registros": 313,
-      "gerado_em": "2026-08-31T20:53:32+00:00"
+      "gerado_em": "2026-09-14T13:56:05+00:00"
     },
     "relacao": {
       "chave": "numero",

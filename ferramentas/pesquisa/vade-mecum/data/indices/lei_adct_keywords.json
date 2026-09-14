@@ -22,9 +22,9 @@
     "fonte": {
       "arquivo": "lei_adct.json",
       "colecao": "artigos",
-      "sha256": "630d0e9426166e78fc659d4ef2fc3e830bf6cc3338dbdc53a7920f5af19c1594",
+      "sha256": "bddba57eab70001d589130d7ca8b66e4a29cecab3b7af63c0477608f733958e0",
       "total_registros": 148,
-      "gerado_em": "2026-08-31T20:53:10+00:00"
+      "gerado_em": "2026-09-14T13:55:49+00:00"
     },
     "relacao": {
       "chave": "numero",
