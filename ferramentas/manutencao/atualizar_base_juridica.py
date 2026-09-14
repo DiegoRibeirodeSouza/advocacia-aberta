@@ -1649,10 +1649,33 @@ def transformar_temas_rg(
         }
     if not temas:
         raise ValueError("nenhum tema reconhecido na exportação de repercussão geral")
+    # BASE-048: tema recém-reconhecido pode vir com o título vazio na própria
+    # exportação (observado em 21/08 e 14/09/2026, sempre "Em julgamento").
+    # Sem título não há o que buscar nem o que exibir, e aceitar o registro
+    # afrouxaria a regra de campo obrigatório para os demais. Em vez de recusar
+    # o conjunto inteiro, o tema fica de fora da coleção e é declarado em
+    # `_meta`: a lacuna é da fonte, aparece na cobertura e o monitor avisa
+    # quando o STF preencher o título.
+    excluidos = [
+        {
+            "numero": item["numero"],
+            "leadingCase": item["leadingCase"],
+            "relator": item["relator"],
+            "situacao": item["situacao"],
+            "repercussao": item["repercussao"],
+            "motivo": "titulo vazio na exportacao oficial",
+            "paginaTema": item["links"]["paginaTema"],
+        }
+        for chave, item in temas.items()
+        if not item["titulo"].strip()
+    ]
     temas = {
         chave: temas[chave]
         for chave in sorted(temas, key=lambda valor: int(valor))
+        if temas[chave]["titulo"].strip()
     }
+    if not temas:
+        raise ValueError("todos os temas da exportação estão sem título")
     situacoes = Counter(item["situacao"] for item in temas.values())
     com_tese = sum(1 for item in temas.values() if item["tese"].strip())
     objeto = {
@@ -1661,6 +1684,8 @@ def transformar_temas_rg(
             "tipo": "temas_repercussao_geral",
             "tribunal": "STF",
             "totalTemas": len(temas),
+            "totalTemasNaFonte": len(temas) + len(excluidos),
+            "excluidosPorLacunaDaFonte": excluidos,
             "temasComTese": com_tese,
             "generatedAt": agora_utc(),
             "situacoes": dict(sorted(situacoes.items())),
@@ -1685,7 +1710,9 @@ def transformar_temas_rg(
                     "A coluna 'Assuntos' do export duplica 'Descrição', então a "
                     "taxonomia de assuntos não é fornecida por esta rota. O flag "
                     "de suspensão nacional (art. 1.035, §5º, CPC) não existe nas "
-                    "rotas estáticas — só na base Qlik do STF."
+                    "rotas estáticas — só na base Qlik do STF. Tema que a "
+                    "exportação traz sem título fica fora da coleção e é listado "
+                    "em excluidosPorLacunaDaFonte (BASE-048)."
                 ),
             },
             "transformacao": "temas_rg_stf_html_v1",
@@ -2637,23 +2664,41 @@ def monitorar_temas_rg(
     arvore = analisar_html(decodificar_html(export))
     situacoes_fonte: Counter[str] = Counter()
     total_fonte = 0
+    com_titulo_fonte: set[str] = set()
     for celulas in linhas_tabela_rg(arvore):
         if len(celulas) != len(COLUNAS_TEMAS_RG):
             continue
-        if not celula_texto_rg(celulas[0]).strip().isdigit():
+        numero_texto = celula_texto_rg(celulas[0]).strip()
+        if not numero_texto.isdigit():
             continue
         total_fonte += 1
         situacoes_fonte[celula_texto_rg(celulas[11])] += 1
+        if celula_texto_rg(celulas[3]).strip():
+            com_titulo_fonte.add(str(int(numero_texto)))
     if not total_fonte:
         raise RuntimeError("exportação de repercussão geral sem temas reconhecíveis")
-    registros = carregar_json(publicados / config["destino"]).get(
-        config.get("chave_colecao", "temas"), {}
-    )
+    publicado = carregar_json(publicados / config["destino"])
+    registros = publicado.get(config.get("chave_colecao", "temas"), {})
+    # Temas omitidos por lacuna da fonte (BASE-048) contam no total e nas
+    # situações, senão o monitor sinalizaria mudança toda semana só por eles.
+    omitidos = (publicado.get("_meta") or {}).get("excluidosPorLacunaDaFonte") or []
     situacoes_pub = Counter(str(item.get("situacao", "")) for item in registros.values())
+    situacoes_pub.update(str(item.get("situacao", "")) for item in omitidos)
+    total_pub = len(registros) + len(omitidos)
     diferencas: list[str] = []
-    if total_fonte != len(registros):
+    if total_fonte != total_pub:
         diferencas.append(
-            f"total {total_fonte} na fonte vs {len(registros)} no snapshot"
+            f"total {total_fonte} na fonte vs {total_pub} no snapshot"
+        )
+    preenchidos = sorted(
+        (str(item.get("numero")) for item in omitidos),
+        key=int,
+    )
+    preenchidos = [n for n in preenchidos if n in com_titulo_fonte]
+    if preenchidos:
+        diferencas.append(
+            "tema(s) omitido(s) por título vazio ganharam título na fonte: "
+            + ", ".join(preenchidos)
         )
     for situacao in sorted(set(situacoes_fonte) | set(situacoes_pub)):
         if situacoes_fonte[situacao] != situacoes_pub[situacao]:

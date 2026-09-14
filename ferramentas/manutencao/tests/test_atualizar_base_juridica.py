@@ -1160,6 +1160,49 @@ class TransformarTemasRGTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "cabeçalho"):
             self.transformar(_tabela_rg(_LINHAS_RG, cabecalho))
 
+    def test_tema_sem_titulo_na_fonte_sai_da_colecao_e_fica_declarado(self) -> None:
+        # BASE-048: a exportação do STF traz tema recém-reconhecido com o título
+        # vazio (Temas 1474/1476/1477 em 21/08/2026; 1482 em 14/09/2026). Ele
+        # não entra na coleção — a validação continuaria recusando o conjunto
+        # inteiro — mas fica declarado em `_meta`, com o link oficial.
+        sem_titulo = (
+            "<tr>"
+            "<td>1482</td><td>ARE 1570444</td><td>MINISTRO PRESIDENTE</td>"
+            "<td></td><td></td><td></td>"
+            '<td><a href="https://portal.stf.jus.br/x/verPronunciamento.asp?pronunciamento=9">'
+            "<div>Manifestação</div></a></td>"
+            "<td>-</td><td>-</td>"
+            "<td>NÃ£o hÃ¡ (questÃ£o infraconstitucional)</td><td></td><td>Em julgamento</td>"
+            "<td></td><td></td><td></td>"
+            "</tr>"
+        )
+        objeto = self.transformar(_tabela_rg(_LINHAS_RG + sem_titulo))
+        self.assertEqual(sorted(objeto["temas"]), ["1", "2"])
+        self.assertEqual(objeto["_meta"]["totalTemas"], 2)
+        self.assertEqual(objeto["_meta"]["totalTemasNaFonte"], 3)
+        self.assertNotIn("Em julgamento", objeto["_meta"]["situacoes"])
+        omitidos = objeto["_meta"]["excluidosPorLacunaDaFonte"]
+        self.assertEqual(len(omitidos), 1)
+        self.assertEqual(omitidos[0]["numero"], 1482)
+        self.assertEqual(omitidos[0]["leadingCase"], "ARE 1570444")
+        self.assertEqual(omitidos[0]["situacao"], "Em julgamento")
+        self.assertEqual(
+            omitidos[0]["repercussao"], "Não há (questão infraconstitucional)"
+        )
+        self.assertEqual(omitidos[0]["motivo"], "titulo vazio na exportacao oficial")
+        self.assertEqual(
+            omitidos[0]["paginaTema"],
+            "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema=1482",
+        )
+        # O conjunto passa a validar: a lacuna é da fonte, não do candidato.
+        config = {"familia": "precedentes_rg_stf", "chave_colecao": "temas"}
+        self.assertEqual(pipeline.validar_objeto(config, objeto, "temas_rg_stf.json"), [])
+
+    def test_sem_titulo_declarado_vazio_quando_a_fonte_esta_completa(self) -> None:
+        objeto = self.transformar(_tabela_rg(_LINHAS_RG))
+        self.assertEqual(objeto["_meta"]["excluidosPorLacunaDaFonte"], [])
+        self.assertEqual(objeto["_meta"]["totalTemasNaFonte"], 2)
+
 
 def _xlsx_bytes(cabecalho: list[str], linhas: list[dict[int, str]]) -> bytes:
     """Monta um XLSX mínimo (zip+XML) com strings inline e células numéricas."""

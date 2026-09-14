@@ -32,7 +32,11 @@ import {
 } from "./legislacao.js";
 import { SNAPSHOTS_SUMULAS, TOTAIS_SUMULAS } from "./sumulas.js";
 import { SNAPSHOT_TEMAS_STJ, TOTAL_TEMAS_STJ } from "./temas.js";
-import { SNAPSHOT_TEMAS_RG_STF, TOTAL_TEMAS_RG_STF } from "./temas_rg_stf.js";
+import {
+  SNAPSHOT_TEMAS_RG_STF,
+  TEMAS_RG_OMITIDOS,
+  TOTAL_TEMAS_RG_STF,
+} from "./temas_rg_stf.js";
 
 const require = createRequire(import.meta.url);
 
@@ -54,6 +58,16 @@ export const LIMITACOES_DECLARADAS = limitacoes.itens;
 export const LIMITACOES_ATUALIZADAS_EM = limitacoes._meta.atualizado_em;
 
 // ── Famílias ───────────────────────────────────────────────────────────────
+
+/** Declara na cobertura os temas que a fonte trouxe sem título (BASE-048):
+ *  quem busca "tema 1482" e recebe vazio precisa saber que o tema existe. */
+function detalheTemasRG(): string {
+  if (TEMAS_RG_OMITIDOS.length === 0) return "precedentes qualificados";
+  const lista = TEMAS_RG_OMITIDOS.map(
+    (tema) => `${tema.numero} (${tema.leadingCase}, ${tema.situacao})`,
+  ).join(", ");
+  return `precedentes qualificados; ${TEMAS_RG_OMITIDOS.length} tema(s) sem título na exportação oficial, fora da coleção até a fonte preencher: ${lista}`;
+}
 
 export interface FamiliaCobertura {
   /** Chave interna, usada para casar limitação e rodapé de proveniência. */
@@ -118,7 +132,7 @@ const FAMILIAS_JURISPRUDENCIA: readonly FamiliaCobertura[] = [
       rotulo: "Temas de repercussão geral do STF",
       ferramenta: "buscar_tema_rg",
       registros: TOTAL_TEMAS_RG_STF,
-      detalhe: "precedentes qualificados",
+      detalhe: detalheTemasRG(),
       geradoEm: SNAPSHOT_TEMAS_RG_STF,
     },
     {

@@ -3,16 +3,28 @@
     "version": "1.0",
     "tipo": "temas_repercussao_geral",
     "tribunal": "STF",
-    "totalTemas": 1479,
+    "totalTemas": 1481,
+    "totalTemasNaFonte": 1482,
+    "excluidosPorLacunaDaFonte": [
+      {
+        "numero": 1482,
+        "leadingCase": "ARE 1570444",
+        "relator": "MINISTRO PRESIDENTE",
+        "situacao": "Em julgamento",
+        "repercussao": "Não há (questão infraconstitucional)",
+        "motivo": "titulo vazio na exportacao oficial",
+        "paginaTema": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema=1482"
+      }
+    ],
     "temasComTese": 1300,
-    "generatedAt": "2026-08-31T20:53:26+00:00",
+    "generatedAt": "2026-09-14T16:10:56+00:00",
     "situacoes": {
-      "Acórdão de Repercussão Geral publicado": 135,
+      "Acórdão de Repercussão Geral publicado": 133,
       "Acórdão de mérito publicado": 38,
-      "Analisada Preliminar de Repercussão Geral": 11,
+      "Analisada Preliminar de Repercussão Geral": 13,
       "Cancelado": 21,
       "Em julgamento": 3,
-      "Mérito julgado": 5,
+      "Mérito julgado": 7,
       "Trânsito em Julgado": 1266
     },
     "descricao": "Temas de Repercussão Geral do STF extraídos da exportação oficial",
@@ -24,8 +36,8 @@
         "temaUrlTemplate": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema={numero}"
       },
       "method": "Tabela HTML (application/vnd.ms-excel) do exportarDados.asp parseada com a biblioteca padrão; mojibake corrigido por célula (cp1252→utf-8).",
-      "collectedAt": "2026-08-31T20:53:26+00:00",
-      "limitacoes": "A coluna 'Assuntos' do export duplica 'Descrição', então a taxonomia de assuntos não é fornecida por esta rota. O flag de suspensão nacional (art. 1.035, §5º, CPC) não existe nas rotas estáticas — só na base Qlik do STF."
+      "collectedAt": "2026-09-14T16:10:56+00:00",
+      "limitacoes": "A coluna 'Assuntos' do export duplica 'Descrição', então a taxonomia de assuntos não é fornecida por esta rota. O flag de suspensão nacional (art. 1.035, §5º, CPC) não existe nas rotas estáticas — só na base Qlik do STF. Tema que a exportação traz sem título fica fora da coleção e é listado em excluidosPorLacunaDaFonte (BASE-048)."
     },
     "transformacao": "temas_rg_stf_html_v1"
   },
@@ -15454,7 +15466,7 @@
     "843": {
       "numero": 843,
       "leadingCase": "RE 835818",
-      "relator": "MIN. ANDRÉ MENDONÇA",
+      "relator": "MIN. MARCO AURÉLIO",
       "titulo": "Possibilidade de exclusão da base de cálculo do PIS e da COFINS dos valores correspondentes a créditos presumidos de ICMS decorrentes de incentivos fiscais concedidos pelos Estados e pelo Distrito Federal.",
       "descricao": "Recurso extraordinário em que se discute, à luz dos arts. 150, § 6º, e 195, I, b, da Constituição Federal, a possibilidade de excluir da base de cálculo da Contribuição ao PIS e da COFINS os valores referentes a créditos presumidos do Imposto sobre a Circulação de Mercadorias e Serviços – ICMS concedidos pelos Estados e pelo Distrito Federal.",
       "repercussao": "Há",
@@ -23104,7 +23116,7 @@
       "titulo": "Possibilidade de manutenção dos créditos de ICMS relativos às operações internas anteriores à operação interestadual com combustíveis derivados de petróleo imune ao imposto devido ao estado de origem.",
       "descricao": "Recurso extraordinário em que se discute, à luz dos artigos 150, II, e 155, § 2º, inciso I, inciso II, a, inciso X, b, e inciso XII, c, da Constituição Federal, a manutenção do crédito de ICMS relativo às operações internas com combustíveis derivados de petróleo cujas posteriores saídas se dão por operações interestaduais sem a incidência do imposto.",
       "repercussao": "Há",
-      "situacao": "Acórdão de Repercussão Geral publicado",
+      "situacao": "Mérito julgado",
       "dataJulgamento": "15/08/2023",
       "tese": "",
       "dataTese": "",
@@ -24030,7 +24042,7 @@
       "titulo": "Exigibilidade do PIS e da COFINS sobre as receitas financeiras oriundas de aplicações financeiras das reservas técnicas de empresas seguradoras.",
       "descricao": "Recurso extraordinário em que se discute, à luz do artigo 195, I, “b”, da Constituição Federal a incidência do PIS e da COFINS sobre as receitas oriundas de aplicações financeiras das reservas técnicas de empresas segurados, tendo em conta a controvérsia sobre a natureza destas receitas.",
       "repercussao": "Há",
-      "situacao": "Acórdão de Repercussão Geral publicado",
+      "situacao": "Mérito julgado",
       "dataJulgamento": "07/08/2024",
       "tese": "",
       "dataTese": "",
@@ -26697,7 +26709,7 @@
     "1457": {
       "numero": 1457,
       "leadingCase": "RE 1591585",
-      "relator": "MINISTRO PRESIDENTE",
+      "relator": "MIN. CÁRMEN LÚCIA",
       "titulo": "Termo inicial da aplicação da taxa SELIC na atualização de débitos judiciais conforme o art. 3° da Emenda Constitucional 113/2021.",
       "descricao": "Recurso extraordinário em que se discute, à luz do artigo 100; § 5º, da Constituição Federal e do artigo 3º da EC nº 113/2021, o alcance do art. 3º da EC nº 113/2021, na redação anterior à EC n° 136/2025, quanto ao regime jurídico da mora, e a definição do termo inicial da incidência da Taxa SELIC na atualização dos débitos judiciais da Fazenda Pública.",
       "repercussao": "Há",
@@ -26733,7 +26745,7 @@
     "1459": {
       "numero": 1459,
       "leadingCase": "RE 1576954",
-      "relator": "MINISTRO PRESIDENTE",
+      "relator": "MIN. NUNES MARQUES",
       "titulo": "Aplicação do sistema de cotas em processo seletivo interno promovido pela universidade quando os candidatos já se submeteram à ação afirmativa no momento do ingresso inicial na instituição de ensino superior.",
       "descricao": "Recurso extraordinário em que se discute, à luz dos artigos 5°; e 207, da Constituição Federal, se uma vez implementada a ação afirmativa no ingresso do estudante na instituição de ensino superior (bacharelado interdisciplinar), é possível sua aplicação em processos seletivos internos destinados à progressão acadêmica (Cursos de Progressão Linear), em benefício desses mesmos alunos, com objetivo de definição do conteúdo e do alcance do princípio da igualdade material e a delimitação da autonomia universitária na implementação de políticas de ação afirmativa.",
       "repercussao": "Há",
@@ -26913,7 +26925,7 @@
     "1469": {
       "numero": 1469,
       "leadingCase": "ARE 1602968",
-      "relator": "MINISTRO PRESIDENTE",
+      "relator": "MIN. FLÁVIO DINO",
       "titulo": "Direito à integralidade e à paridade na aposentadoria especial voluntária de agente penitenciário que ingressou no serviço público antes da EC nº 41/2003.",
       "descricao": "Recurso extraordinário em que se discute, à luz dos artigos 40; §§ 1º; 3º; 4º; 8º; e 17, da Constituição Federal, se, preenchidos os requisitos da Lei Complementar nº 1.109/2010 para a obtenção da aposentadoria especial voluntária, o agente penitenciário que ingressou no serviço público antes da EC nº 41/2003 faria jus à integralidade e paridade remuneratória.",
       "repercussao": "Há",
@@ -27079,7 +27091,7 @@
       "titulo": "Implementação do reajuste de vencimentos dos servidores do Grupo de Atividades de Educação Básica do Estado de Minas Gerais, com fundamento na Lei 22.062/2016 do Estado de Minas Gerais.",
       "descricao": "Recurso extraordinário em que se discute, à luz dos artigos 37; X; e 61; §1º; II; “a”, da Constituição Federal, se a implementação do reajuste de 11,36% concedido pela Lei Estadual nº 22.062/2016 de Minas Gerais está em harmonia com a Constituição, é compatível com a Constituição Federal, considerada a alegada inconstitucionalidade por arrastamento do art. 3º da Lei Estadual nº 21.710/2015.",
       "repercussao": "Não há (questão infraconstitucional)",
-      "situacao": "Em julgamento",
+      "situacao": "Analisada Preliminar de Repercussão Geral",
       "dataJulgamento": "",
       "tese": "",
       "dataTese": "",
@@ -27097,7 +27109,7 @@
       "titulo": "Composição da base de cálculo da contribuição facultativa para o custeio da assistência à saúde na hipótese de acumulação lícita de cargos públicos.",
       "descricao": "Recurso extraordinário em que se discute, à luz do artigo 149 da Constituição Federal, se, na hipótese de acumulação lícita de cargos públicos, a base de cálculo da contribuição facultativa destinada ao custeio do Sistema de Assistência à Saúde dos Servidores Públicos do Estado de Pernambuco (SASSEPE), instituído pela Lei Complementar Estadual nº 30/2001, deve abranger a remuneração de apenas um ou de ambos os vínculos funcionais.",
       "repercussao": "Não há (questão infraconstitucional)",
-      "situacao": "Em julgamento",
+      "situacao": "Analisada Preliminar de Repercussão Geral",
       "dataJulgamento": "",
       "tese": "",
       "dataTese": "",
@@ -27106,6 +27118,42 @@
         "paginaTema": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema=1479",
         "manifestacao": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verPronunciamento.asp?pronunciamento=12565983",
         "detalhamento": "https://portal.stf.jus.br/jurisprudenciaRepercussao/detalharProcesso.asp?numeroTema=1479"
+      }
+    },
+    "1480": {
+      "numero": 1480,
+      "leadingCase": "RE 1586626",
+      "relator": "MINISTRO PRESIDENTE",
+      "titulo": "Suspensão do prazo prescricional da obrigação de pagar quantia certa pela Fazenda Pública durante o cumprimento de obrigação de fazer imposta na mesma sentença.",
+      "descricao": "Recurso extraordinário em que se discute, à luz dos artigos 5º; XXXV; LIV; 37; e 100, da Constituição Federal, se o curso do prazo prescricional da obrigação de pagar quantia certa pela Fazenda Pública é suspenso durante o cumprimento de obrigação de fazer imposta na mesma sentença, consistente na implantação de parcela remuneratória em folha de pagamento.",
+      "repercussao": "Não há (questão infraconstitucional)",
+      "situacao": "Em julgamento",
+      "dataJulgamento": "",
+      "tese": "",
+      "dataTese": "",
+      "observacao": "",
+      "links": {
+        "paginaTema": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema=1480",
+        "manifestacao": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verPronunciamento.asp?pronunciamento=12540463",
+        "detalhamento": "https://portal.stf.jus.br/jurisprudenciaRepercussao/detalharProcesso.asp?numeroTema=1480"
+      }
+    },
+    "1481": {
+      "numero": 1481,
+      "leadingCase": "RE 1563095",
+      "relator": "MINISTRO PRESIDENTE",
+      "titulo": "Possibilidade de efetivação no serviço público de agentes comunitários de saúde e agentes de combate a endemias em exercício antes da Emenda Constitucional nº 51/2006.",
+      "descricao": "Recurso extraordinário em que se discute, à luz do artigo 2º da Emenda Constitucional nº 51/2006, se agentes comunitários de saúde e agentes de combate a endemias que estavam em exercício antes da promulgação da referida emenda podem ser efetivados no serviço público, independentemente de aprovação em concurso público, quando admitidos mediante processo seletivo simplificado.",
+      "repercussao": "Não há (questão infraconstitucional)",
+      "situacao": "Em julgamento",
+      "dataJulgamento": "",
+      "tese": "",
+      "dataTese": "",
+      "observacao": "",
+      "links": {
+        "paginaTema": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verTeseTema.asp?numTema=1481",
+        "manifestacao": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verPronunciamento.asp?pronunciamento=12551577",
+        "detalhamento": "https://portal.stf.jus.br/jurisprudenciaRepercussao/detalharProcesso.asp?numeroTema=1481"
       }
     }
   }

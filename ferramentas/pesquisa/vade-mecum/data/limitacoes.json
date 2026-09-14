@@ -3,7 +3,7 @@
     "descricao": "Limitações declaradas da base, espelhando os itens abertos de base-juridica/BACKLOG.md. Serve à ferramenta cobertura_da_base: quem consulta precisa saber o que a base NÃO cobre antes de interpretar um resultado vazio como ausência de norma ou de precedente.",
     "fonte": "base-juridica/BACKLOG.md",
     "regra": "Todo item aberto do backlog precisa aparecer aqui, inclusive os que não afetam cobertura — nesse caso com afetaCobertura=false e a razão. O teste cobertura.test.ts recusa omissão silenciosa.",
-    "atualizado_em": "2026-07-23"
+    "atualizado_em": "2026-09-14"
   },
   "itens": [
     {
@@ -93,6 +93,22 @@
         "legislacao"
       ],
       "resumo": "A base guarda uma única redação por dispositivo — a compilada na data do snapshot. A resposta diz que o artigo mudou, por qual diploma e quando, mas não guarda o texto das redações anteriores: para saber qual redação vigia na data do fato, consulte o histórico na fonte oficial."
+    },
+    {
+      "id": "BASE-048",
+      "afetaCobertura": true,
+      "familias": [
+        "temas_rg_stf"
+      ],
+      "resumo": "Tema de repercussão geral que a exportação oficial do STF traz sem título (recém-reconhecido, \"Em julgamento\") fica fora da coleção até a fonte preenchê-lo; a lista dos omitidos aparece nesta cobertura, com o link oficial de cada um. Busca por esse número devolve vazio — confira a página do tema no STF."
+    },
+    {
+      "id": "BASE-049",
+      "afetaCobertura": true,
+      "familias": [
+        "legislacao"
+      ],
+      "resumo": "No CPC, a compilação do Planalto aplica o § 2º da Lei 15.484/2026 ao art. 1.041 em vez do art. 1.042 (conferido no texto da lei em 14/09/2026). A base espelha a compilação como está: o art. 1.041, § 2º, e o art. 1.042, § 2º, devolvem texto divergente da lei — confira na Lei 15.484/2026 antes de citar."
     }
   ]
 }

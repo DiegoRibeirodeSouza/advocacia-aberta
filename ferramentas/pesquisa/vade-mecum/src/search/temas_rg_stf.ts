@@ -37,13 +37,31 @@ export interface TemaRGData {
 
 // ── Data loading ───────────────────────────────────────────────────────────
 
+/** Tema que a exportação oficial trouxe sem título e por isso ficou fora da
+ *  coleção (BASE-048). A lacuna é da fonte; aqui ela é declarada, não escondida. */
+export interface TemaRGOmitido {
+  readonly numero: number;
+  readonly leadingCase: string;
+  readonly relator: string;
+  readonly situacao: string;
+  readonly repercussao: string;
+  readonly motivo: string;
+  readonly paginaTema: string;
+}
+
 const raw = require("../../data/temas_rg_stf.json") as {
-  _meta: { totalTemas: number; generatedAt: string };
+  _meta: {
+    totalTemas: number;
+    generatedAt: string;
+    excluidosPorLacunaDaFonte?: readonly TemaRGOmitido[];
+  };
   temas: Record<string, TemaRGData>;
 };
 
 export const TOTAL_TEMAS_RG_STF = Object.keys(raw.temas).length;
 export const SNAPSHOT_TEMAS_RG_STF = dataDoSnapshot(raw._meta.generatedAt);
+export const TEMAS_RG_OMITIDOS: readonly TemaRGOmitido[] =
+  raw._meta.excluidosPorLacunaDaFonte ?? [];
 
 // ── Índice textual em memória ──────────────────────────────────────────────
 // Construído a partir do texto publicado de cada tema, cobre todos os temas em

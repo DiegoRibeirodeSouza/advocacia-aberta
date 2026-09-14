@@ -791,6 +791,7 @@ class MonitorarTemasRGTest(unittest.TestCase):
         for numero, situacao in situacoes.items():
             tds = [""] * len(pipeline.COLUNAS_TEMAS_RG)
             tds[0] = str(numero)
+            tds[3] = "" if numero in (self.sem_titulo or ()) else f"Tema {numero}"
             tds[11] = situacao
             linhas += "<tr>" + "".join(f"<td>{v}</td>" for v in tds) + "</tr>"
         return (
@@ -798,7 +799,16 @@ class MonitorarTemasRGTest(unittest.TestCase):
             f"<tbody>{linhas}</tbody></table></body></html>"
         )
 
-    def monitorar(self, fonte: dict[int, str], snapshot: dict[str, str]):
+    sem_titulo: tuple[int, ...] = ()
+
+    def monitorar(
+        self,
+        fonte: dict[int, str],
+        snapshot: dict[str, str],
+        omitidos: dict[str, str] | None = None,
+        sem_titulo: tuple[int, ...] = (),
+    ):
+        self.sem_titulo = sem_titulo
         config = {
             "adaptador": "temas_rg_stf_html_v1",
             "chave_colecao": "temas",
@@ -812,10 +822,16 @@ class MonitorarTemasRGTest(unittest.TestCase):
             (publicados / "temas_rg_stf.json").write_text(
                 json.dumps(
                     {
+                        "_meta": {
+                            "excluidosPorLacunaDaFonte": [
+                                {"numero": int(chave), "situacao": situacao}
+                                for chave, situacao in (omitidos or {}).items()
+                            ]
+                        },
                         "temas": {
                             chave: {"situacao": situacao}
                             for chave, situacao in snapshot.items()
-                        }
+                        },
                     }
                 ),
                 encoding="utf-8",
@@ -841,6 +857,28 @@ class MonitorarTemasRGTest(unittest.TestCase):
             {"1": "Trânsito em Julgado", "2": "Trânsito em Julgado"},
         )
         self.assertEqual(itens[0]["situacao"], "sem_mudanca")
+
+    def test_tema_omitido_por_lacuna_da_fonte_conta_no_total(self) -> None:
+        # BASE-048: o tema sem título continua na fonte, mas fora da coleção.
+        # Sem descontá-lo, o monitor acusaria "mudou" toda semana só por ele.
+        itens = self.monitorar(
+            {1: "Trânsito em Julgado", 2: "Em julgamento"},
+            {"1": "Trânsito em Julgado"},
+            omitidos={"2": "Em julgamento"},
+            sem_titulo=(2,),
+        )
+        self.assertEqual(itens[0]["situacao"], "sem_mudanca")
+
+    def test_tema_omitido_que_ganhou_titulo_na_fonte_indica_mudanca(self) -> None:
+        # Quando o STF preenche o título, é hora de recoletar e promover.
+        itens = self.monitorar(
+            {1: "Trânsito em Julgado", 2: "Em julgamento"},
+            {"1": "Trânsito em Julgado"},
+            omitidos={"2": "Em julgamento"},
+            sem_titulo=(),
+        )
+        self.assertEqual(itens[0]["situacao"], "mudou")
+        self.assertIn("ganharam título na fonte: 2", itens[0]["detalhe"])
 
 
 class MonitorarInformativoTest(unittest.TestCase):

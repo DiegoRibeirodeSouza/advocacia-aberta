@@ -4618,38 +4618,29 @@
       }
     },
     "temas_rg_stf.json": {
-      "versao": 4,
-      "sha256": "50a18d1844b44e50a2df8bc8aafd24dabe28bf31db50927b5d5b399a2020be82",
-      "gerado_em": "2026-08-31T20:53:26+00:00",
-      "registros": 1479,
+      "versao": 5,
+      "sha256": "d354f7c259096c50c5a1f67ebaf90bf89d7c50b373eb40447b7cc9a80edd0d65",
+      "gerado_em": "2026-09-14T16:10:56+00:00",
+      "registros": 1481,
       "colecao": "temas",
       "mudancas": {
-        "adicionados": 9,
+        "adicionados": 2,
         "removidos": 0,
-        "alterados": 15,
+        "alterados": 8,
         "amostra_adicionados": [
-          "1471",
-          "1472",
-          "1473",
-          "1474",
-          "1475",
-          "1476",
-          "1477",
-          "1478",
-          "1479"
+          "1480",
+          "1481"
         ],
         "amostra_removidos": [],
         "amostra_alterados": [
-          "100",
-          "1308",
-          "1370",
-          "1412",
-          "1455",
-          "1460",
-          "1464",
-          "1465",
-          "1466",
-          "1467"
+          "1258",
+          "1309",
+          "1457",
+          "1459",
+          "1469",
+          "1478",
+          "1479",
+          "843"
         ]
       }
     }

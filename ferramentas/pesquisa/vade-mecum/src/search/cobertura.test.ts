@@ -10,7 +10,7 @@ import {
 } from "./legislacao.js";
 import { TOTAIS_SUMULAS } from "./sumulas.js";
 import { TOTAL_TEMAS_STJ } from "./temas.js";
-import { TOTAL_TEMAS_RG_STF } from "./temas_rg_stf.js";
+import { TEMAS_RG_OMITIDOS, TOTAL_TEMAS_RG_STF } from "./temas_rg_stf.js";
 import {
   TOTAL_EDICOES_INFORMATIVO,
   TOTAL_INFORMATIVOS_STF,
@@ -346,7 +346,7 @@ describe("cobertura declarada pelo motor", () => {
     expect(TOTAL_TESES_STJ).toBe(3526);
     expect(TOTAL_EDICOES_JT).toBe(284);
     expect(TOTAL_TEMAS_STJ).toBe(1473);
-    expect(TOTAL_TEMAS_RG_STF).toBe(1479);
+    expect(TOTAL_TEMAS_RG_STF).toBe(1481);
     expect(TOTAL_INFORMATIVOS_STF).toBe(11593);
     expect(TOTAL_EDICOES_INFORMATIVO).toBe(1215);
     expect(TOTAL_ESPELHOS_STJ).toBe(12156);
@@ -377,13 +377,34 @@ describe("cobertura e limitações chegam a quem consulta", () => {
     ).text();
     const abertos = backlog
       .split("\n")
-      .filter((linha) => linha.trimEnd().endsWith("| aberto |"))
+      // Dois formatos de estado convivem no backlog: "| aberto |" (itens
+      // antigos) e "| **aberto em <data>** ... |" (itens recentes, com o
+      // histórico na própria célula). Ignorar o segundo deixou o BASE-048
+      // fora das limitações por três semanas sem que este teste acusasse.
+      .filter((linha) => /\|\s*(aberto|\*\*aberto em [^*]+\*\*)[^|]*\|\s*$/.test(linha))
       .map((linha) => linha.match(/`(BASE-\d+)`/)?.[1])
       .filter((id): id is string => Boolean(id));
 
     expect(abertos.length).toBeGreaterThan(0);
     const declarados = new Set(LIMITACOES_DECLARADAS.map((item) => item.id));
     for (const id of abertos) expect(declarados).toContain(id);
+  });
+
+  test("temas de RG omitidos por lacuna da fonte aparecem na cobertura", () => {
+    // BASE-048: tema sem título na exportação fica fora da coleção, mas quem
+    // busca por ele precisa saber que existe. Sem omitidos, o detalhe é o
+    // padrão; com omitidos, cada número aparece com o leading case.
+    const familia = listarFamilias().find((f) => f.chave === "temas_rg_stf");
+    expect(familia).toBeDefined();
+    if (TEMAS_RG_OMITIDOS.length === 0) {
+      expect(familia?.detalhe).toBe("precedentes qualificados");
+      return;
+    }
+    expect(familia?.detalhe).toContain("sem título na exportação oficial");
+    for (const tema of TEMAS_RG_OMITIDOS) {
+      expect(familia?.detalhe).toContain(`${tema.numero} (${tema.leadingCase}`);
+      expect(formatCobertura()).toContain(String(tema.numero));
+    }
   });
 
   test("o relatório mostra cada limitação que afeta cobertura", () => {

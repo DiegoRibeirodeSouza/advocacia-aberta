@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-14T14:02:59+00:00",
+  "gerado_em": "2026-09-14T16:11:19+00:00",
   "significado": "conferido_em é a última verificação da fonte oficial que respondeu; não é a data da última mudança promovida (essa está em snapshots.json). Situação sem_mudanca com conferido_em recente significa fonte estável, não base parada. metodo=sinal é o monitor barato, que não detecta alteração de enunciado; metodo=recoleta compara o conteúdo inteiro contra a fonte, e recoletado_em guarda a última vez que isso foi feito.",
   "conjuntos": {
     "espelhos_stj": {
@@ -206,11 +206,11 @@
       "recoletado_em": "2026-09-14T14:02:59+00:00"
     },
     "temas_rg_stf": {
-      "situacao": "mudou",
+      "situacao": "sem_mudanca",
       "fontes": 1,
-      "conferido_em": "2026-09-14T14:02:59+00:00",
+      "conferido_em": "2026-09-14T16:11:19+00:00",
       "metodo": "recoleta",
-      "recoletado_em": "2026-09-14T14:02:59+00:00"
+      "recoletado_em": "2026-09-14T16:11:19+00:00"
     }
   }
 }
